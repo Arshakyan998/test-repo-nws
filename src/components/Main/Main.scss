@@ -1,0 +1,45 @@
+.main {
+  &__images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  &__imageWrapper {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 5px;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__loadBtnWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  &__loadBtn {
+    padding: 10px;
+    background: #000;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  &__loadBtn:hover {
+    background: aqua;
+    color: #000;
+    transition: 0.5s ease-in-out;
+  }
+}
